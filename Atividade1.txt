@@ -1,0 +1,18 @@
+Algoritmo <Notas_aritmeticas>
+inicio
+var 
+nome_aluno: caractere 
+n1 , n2 , n3 , media , soma: real 
+soma = n1+n2+n3
+media=soma/3
+escreva("Digite o nome do aluno: ");
+leia(nome_aluno);
+escreva("Digite a nota da prmeira prova: ");
+leia(n1)
+escreva("Digite a nota da segunda prova: ");
+leia(n2)
+escreva("Digite a nota da terceira prova: ");
+leia(n3)
+escreva ("A média do aluno", nome_aluno,"é"media);
+fim
+
