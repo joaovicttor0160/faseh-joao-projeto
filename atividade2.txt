@@ -1,0 +1,13 @@
+Algoritmos <Valores>
+inicio
+var
+Inteiro: A , B , AUX
+Leia(A) 
+Leia(B)
+
+AUX=A 
+A=B 
+B=AUX 
+Escrever A , B 
+fim 
+
