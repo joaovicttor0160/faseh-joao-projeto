@@ -1,0 +1,15 @@
+Algoritmo <consumo_medio>
+var 
+distancia , combustivel , consumo_medio:real 
+inicio
+Escreva(" Digite a distância percorrida:")
+leia(distancia)
+Escreva("Digite a quantidade de combústivel usado:")
+leia(combustivel)
+
+processamemto 
+consumo medio = distancia / combustivel 
+
+saida 
+Escreva (" O consumo médio do automóvel é: " , consumo_medio, " km/L")
+fim 
