@@ -1,0 +1,22 @@
+Algoritmo <Salario_comissão> 
+var 
+nome:caractere 
+salario_fixo , vendas , comissao  , salario_total:Real 
+
+entrada de dados 
+Escreva ("Digite o nome do vendedor:")
+leia(nome)
+Escreva ("Digite o salário fixo:")
+leia(salario_fixo)
+Escreva("Digite o total de vendas no mês:")
+Leia(vendas)
+
+processamento
+comissao= vendas * 0.15
+salario_total = salario_fixo + comissao 
+
+saida 
+Escreva ("vendedor: " , nome )
+Escreva ("Salario Fixo:R$ " , salario_fixo) 
+Escreva ("Salario Final ( com comissão) : R$ " , salario_total)
+fim
