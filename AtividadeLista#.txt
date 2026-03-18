@@ -1,0 +1,16 @@
+Algoritmo <conversao>
+var 
+cotaçao , dolares , valor_real:inteiro
+inicio 
+
+Escreva (" Digite a cotação do dólar hoje:");
+leia (cotaçao);
+Escreva ( "Digite a quantidade de dolares que você quer converter:");
+leia (dolares);
+
+processamento
+valor_real = dolares * cotaçao
+
+saida 
+Escreva ("O valor em real é" , valor_real , " em R$")
+fim
