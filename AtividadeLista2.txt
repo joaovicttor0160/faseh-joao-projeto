@@ -1,0 +1,12 @@
+Algoritmo <temperatura_fahrenheit>
+var 
+C , F: real 
+Escreva:("Digite a temperatura em graus Celsius")
+leia(C)
+
+processamento 
+F=(9*C+160)/5
+
+saida 
+Escreva:("A temperatura em Graus Fahrenheit é:", f , ")
+fim 
