@@ -1,0 +1,14 @@
+Algoritmo <rendimento_em_conta>
+var
+valor , valor final: real
+ 
+inicio 
+Escreva("Digite o valor a depositar:");
+leia(valor);
+
+processamento
+valor_final = valor*(1+0,007);
+
+saída de dados
+Escreva("O valor total é ",valor final,"R$ no mês");
+fim
