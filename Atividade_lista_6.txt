@@ -1,0 +1,24 @@
+Algoritmo <numeros>
+var 
+a , b , maior: inteiro 
+
+inicio
+leia(a)
+leia(b)
+
+processamento 
+se (a > b) então 
+maior = a 
+senão
+maior = b
+fimse
+
+Escreva("Maior:, maior)
+
+se (maior <=99) então 
+Escreva("Entre 1 e 99")
+senão se (maior <= 199) então
+Escreva (Entre 100 a 199")
+senão 
+Escreva ("Maior que 200")
+fim 
