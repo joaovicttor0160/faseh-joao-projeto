@@ -1,0 +1,16 @@
+Algoritmo <custo_carro>
+var 
+custoF , imposto , valor_com_imposto , valor_final: real 
+
+inicio 
+Escreva("Digite o custo de fábrica do veículo:")
+leia(custoF)
+
+processamento 
+imposto = custoF * 0.45%
+valor_com_imposto = custo + imposto 
+
+valor final = valor_com_imposto * 1.28
+saída
+Escreva("O custo final do veículo é", valor_final ,")
+fim 
