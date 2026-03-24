@@ -1,0 +1,30 @@
+Algoritmo < notas2 > 
+var 
+nome: caractere
+nota1 , nota2 , nota3 , soma , media 
+
+
+inicio
+Escreva("Digite seu nome")
+leia(nome)
+Escreva("Digite a nota da primeira prova")
+leia(nota1)
+Escreva("Digite a nota da segunda prova")
+leia(nota2)
+Escreva("Digite a nota da terceira prova")
+leia(nota3)
+
+processamento 
+soma = nota1 + nota2 + nota 3
+
+media = soma / 3
+
+saída 
+se(media >=7) então 
+Escreva("O aluno", nome ,"foi aprovado")
+senão se (media <= 5) então
+Escreva("O aluno", nome, " foi reprovado")
+senão
+Escreva("O aluno", nome , " está em recuperação")
+fimse
+fim
