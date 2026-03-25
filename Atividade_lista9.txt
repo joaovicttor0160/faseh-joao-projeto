@@ -1,0 +1,36 @@
+Algoritmo <carango_velho>
+var
+   ano, totalAte2010 , 
+ totalGeral : inteiro
+   valorCarro , valorDesconto , 
+ valorFinal : real 
+   desejaContinuar : caractere
+
+inicio
+   totalAte2010 <- 0
+   totalGeral <-0
+   desejaContinuar <- "S"
+
+   Enquanto (desejaContinuar <> "N") faca 
+      Escreva("Digite o valor do veículo:")
+      Leia(valorCarro)
+      Escreva("Digite o ano do veículo:")
+      leia(ano)
+
+      Se (ano <= 2010) então
+         valorDesconto <- valorCarro * 0.12
+         totalAte2010 <- valorCarro * 0.07
+         fimse
+         valorFinal <- valorCarro - valorDesconto
+         totalGeral <- totalGeral + 1
+
+         Escreva("Desconto: R$ ", valorDesconto)
+         Escreva("Valor a pagar: R$ ", valorFinal)
+         
+         Escreva("Deseja continuar ?(S/N):")
+         Leia(desejaContinuar)
+         FimEnquanto
+  
+         Escreva("Total de carros até 2010:",totalAte2010)
+         Escreva("Total geral de carros:", totalGeral)
+         FimAlgoritmo
