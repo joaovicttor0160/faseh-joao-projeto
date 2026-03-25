@@ -1,0 +1,24 @@
+Faça um algoritmo que receba a idade de 75 pessoas e mostre mensagem informando
+“maior de idade” e “menor de idade” e “idoso”para cada pessoa.Considere a idade a
+partir de 18 anos como maior de idade e idoso a partir de 60 anos.
+
+Algoritmo <idade>
+var 
+i , idade : inteiro 
+
+inicio 
+para i de 1 ate 75 faca
+leia ("Digite a idade",idade,"
+
+processamento 
+
+se (idade < 18) entao 
+Escreva("menor de idade")
+senao (idade < 60 ) 
+Escreva ("Maior de idade")
+senao (idade > 60) 
+Escreva("Idoso")
+fimse 
+fimpara 
+Escreva("Processamento de idade concluído") 
+fimAlgoritmo
