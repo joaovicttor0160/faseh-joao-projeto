@@ -1,0 +1,19 @@
+Faça uma função que recebe, por parâmetro um valor N, um valor O e um valor T e
+calcule e escreve a taboada de 1 até T. Mostre a taboada na forma: Onde “N” é o valor
+de calculo da taboada “O” é o operador da tabuada e “T” é o ultimo numero que será
+realizado a conta da tabuada.
+Exemplo, n = 5, O = “S” e T = 10, irá fazer a tabuada de soma do numero 5 até chegar
+no numero 10.
+
+ Funcao GerarTabuada (N , T: inteiro; O:caractere)
+var 
+   i , resultado : inteiro
+inicio
+   Para i de 1 ate T faca 
+     
+     se (O = "S") então
+        resultado <- N + i 
+        Escreva (N, "+" , i, "=", resultado)
+      FimSe
+      FimPara
+      FimFuncao
